@@ -1,0 +1,201 @@
+timestamp,event_type,severity,source_ip,username,password_attempted,path,method,user_agent,attempt_number,status_code,message,bytes_sent,response_time_ms,country,flagged
+2024-01-15 08:02:05,NORMAL_REQUEST,INFO,10.0.0.34,user_537,,/api/v1/analyze,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,20303,265,IN,False
+2024-01-15 08:02:53,NORMAL_REQUEST,INFO,10.0.0.34,user_923,,/static/js/app.js,PUT,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,10524,261,IN,False
+2024-01-15 08:10:57,NORMAL_REQUEST,INFO,10.0.0.12,user_426,,/api/v1/analyze,POST,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,7863,57,IN,False
+2024-01-15 08:13:54,NORMAL_REQUEST,INFO,192.168.100.5,user_771,,/api/v1/health,PUT,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,20372,152,IN,False
+2024-01-15 08:25:06,NORMAL_REQUEST,INFO,10.0.0.12,user_164,,/static/js/app.js,POST,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,43924,180,IN,False
+2024-01-15 08:29:14,NORMAL_REQUEST,INFO,10.10.10.45,user_203,,/static/js/app.js,GET,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,14470,117,IN,False
+2024-01-15 08:32:31,NORMAL_REQUEST,INFO,192.168.100.5,user_122,,/api/v1/health,POST,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,39444,92,IN,False
+2024-01-15 08:32:49,NORMAL_REQUEST,INFO,10.0.0.5,user_390,,/api/v1/users,GET,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,46647,158,IN,False
+2024-01-15 08:48:45,NORMAL_REQUEST,INFO,192.168.100.15,user_292,,/api/v1/settings,PUT,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,14853,228,IN,False
+2024-01-15 08:55:52,NORMAL_REQUEST,INFO,10.10.10.45,user_107,,/static/js/app.js,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,44408,211,IN,False
+2024-01-15 09:06:12,NORMAL_REQUEST,INFO,192.168.100.5,user_459,,/api/v1/analyze,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,14038,295,IN,False
+2024-01-15 09:12:12,NORMAL_REQUEST,INFO,172.16.0.10,user_211,,/static/js/app.js,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,14261,287,IN,False
+2024-01-15 09:12:22,NORMAL_REQUEST,INFO,192.168.100.15,user_812,,/api/v1/health,GET,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,11446,73,IN,False
+2024-01-15 09:14:04,NORMAL_REQUEST,INFO,172.16.0.22,user_899,,/favicon.ico,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,38268,34,IN,False
+2024-01-15 09:14:31,NORMAL_REQUEST,INFO,192.168.100.5,user_261,,/api/v1/users,POST,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,42894,269,IN,False
+2024-01-15 09:15:03,FAILED_LOGIN,HIGH,78.45.123.67,guest,guest,/login,POST,python-requests/2.28,4,401,Failed login attempt from 78.45.123.67,0,58,RU,True
+2024-01-15 09:15:05,FAILED_LOGIN,HIGH,78.45.123.67,user,default,/login,POST,python-requests/2.28,7,401,Failed login attempt from 78.45.123.67,0,157,RU,True
+2024-01-15 09:15:05,FAILED_LOGIN,HIGH,78.45.123.67,test,cisco,/login,POST,python-requests/2.28,8,401,Failed login attempt from 78.45.123.67,0,121,RU,True
+2024-01-15 09:15:06,FAILED_LOGIN,HIGH,78.45.123.67,admin,test123,/login,POST,python-requests/2.28,11,401,Failed login attempt from 78.45.123.67,0,74,RU,True
+2024-01-15 09:15:07,FAILED_LOGIN,HIGH,78.45.123.67,user,changeme,/login,POST,python-requests/2.28,13,401,Failed login attempt from 78.45.123.67,0,187,RU,True
+2024-01-15 09:15:12,FAILED_LOGIN,HIGH,78.45.123.67,root,admin,/login,POST,python-requests/2.28,17,401,Failed login attempt from 78.45.123.67,0,70,RU,True
+2024-01-15 09:15:13,FAILED_LOGIN,HIGH,78.45.123.67,user,password123,/login,POST,python-requests/2.28,19,401,Failed login attempt from 78.45.123.67,0,91,RU,True
+2024-01-15 09:15:22,FAILED_LOGIN,HIGH,78.45.123.67,administrator,abc123,/login,POST,python-requests/2.28,27,401,Failed login attempt from 78.45.123.67,0,177,RU,True
+2024-01-15 09:15:24,FAILED_LOGIN,HIGH,78.45.123.67,root,pass,/login,POST,python-requests/2.28,29,401,Failed login attempt from 78.45.123.67,0,193,RU,True
+2024-01-15 09:15:35,FAILED_LOGIN,HIGH,78.45.123.67,user,root,/login,POST,python-requests/2.28,37,401,Failed login attempt from 78.45.123.67,0,187,RU,True
+2024-01-15 09:15:37,FAILED_LOGIN,HIGH,78.45.123.67,guest,root,/login,POST,python-requests/2.28,41,401,Failed login attempt from 78.45.123.67,0,126,RU,True
+2024-01-15 09:15:39,FAILED_LOGIN,HIGH,78.45.123.67,guest,alpine,/login,POST,python-requests/2.28,42,401,Failed login attempt from 78.45.123.67,0,100,RU,True
+2024-01-15 09:15:45,FAILED_LOGIN,HIGH,78.45.123.67,admin,123456,/login,POST,python-requests/2.28,47,401,Failed login attempt from 78.45.123.67,0,174,RU,True
+2024-01-15 09:15:45,FAILED_LOGIN,HIGH,78.45.123.67,guest,letmein,/login,POST,python-requests/2.28,48,401,Failed login attempt from 78.45.123.67,0,82,RU,True
+2024-01-15 09:15:48,FAILED_LOGIN,HIGH,78.45.123.67,guest,alpine,/login,POST,python-requests/2.28,50,401,Failed login attempt from 78.45.123.67,0,158,RU,True
+2024-01-15 09:15:51,FAILED_LOGIN,HIGH,78.45.123.67,admin,12345678,/login,POST,python-requests/2.28,54,401,Failed login attempt from 78.45.123.67,0,55,RU,True
+2024-01-15 09:15:55,FAILED_LOGIN,HIGH,78.45.123.67,user,cisco,/login,POST,python-requests/2.28,60,401,Failed login attempt from 78.45.123.67,0,197,RU,True
+2024-01-15 09:16:09,FAILED_LOGIN,HIGH,78.45.123.67,root,admin,/login,POST,python-requests/2.28,76,401,Failed login attempt from 78.45.123.67,0,105,RU,True
+2024-01-15 09:16:13,FAILED_LOGIN,HIGH,78.45.123.67,test,1234,/login,POST,python-requests/2.28,79,401,Failed login attempt from 78.45.123.67,0,185,RU,True
+2024-01-15 09:16:13,FAILED_LOGIN,HIGH,78.45.123.67,admin,alpine,/login,POST,python-requests/2.28,81,401,Failed login attempt from 78.45.123.67,0,67,RU,True
+2024-01-15 09:16:31,FAILED_LOGIN,HIGH,78.45.123.67,administrator,abc123,/login,POST,python-requests/2.28,98,401,Failed login attempt from 78.45.123.67,0,117,RU,True
+2024-01-15 09:16:42,FAILED_LOGIN,HIGH,78.45.123.67,root,pass,/login,POST,python-requests/2.28,108,401,Failed login attempt from 78.45.123.67,0,76,RU,True
+2024-01-15 09:16:45,FAILED_LOGIN,HIGH,78.45.123.67,test,pass,/login,POST,python-requests/2.28,114,401,Failed login attempt from 78.45.123.67,0,101,RU,True
+2024-01-15 09:16:48,FAILED_LOGIN,HIGH,78.45.123.67,user,1234,/login,POST,python-requests/2.28,118,401,Failed login attempt from 78.45.123.67,0,152,RU,True
+2024-01-15 09:16:56,FAILED_LOGIN,HIGH,78.45.123.67,root,welcome,/login,POST,python-requests/2.28,124,401,Failed login attempt from 78.45.123.67,0,61,RU,True
+2024-01-15 09:17:07,FAILED_LOGIN,HIGH,78.45.123.67,user,qwerty,/login,POST,python-requests/2.28,132,401,Failed login attempt from 78.45.123.67,0,195,RU,True
+2024-01-15 09:17:13,FAILED_LOGIN,HIGH,78.45.123.67,user,qwerty,/login,POST,python-requests/2.28,137,401,Failed login attempt from 78.45.123.67,0,71,RU,True
+2024-01-15 09:17:14,FAILED_LOGIN,HIGH,78.45.123.67,guest,alpine,/login,POST,python-requests/2.28,138,401,Failed login attempt from 78.45.123.67,0,135,RU,True
+2024-01-15 09:17:22,FAILED_LOGIN,HIGH,78.45.123.67,root,root,/login,POST,python-requests/2.28,147,401,Failed login attempt from 78.45.123.67,0,166,RU,True
+2024-01-15 09:17:24,FAILED_LOGIN,HIGH,78.45.123.67,administrator,changeme,/login,POST,python-requests/2.28,149,401,Failed login attempt from 78.45.123.67,0,179,RU,True
+2024-01-15 09:17:27,FAILED_LOGIN,HIGH,78.45.123.67,user,welcome,/login,POST,python-requests/2.28,152,401,Failed login attempt from 78.45.123.67,0,183,RU,True
+2024-01-15 09:17:31,FAILED_LOGIN,HIGH,78.45.123.67,user,letmein,/login,POST,python-requests/2.28,157,401,Failed login attempt from 78.45.123.67,0,104,RU,True
+2024-01-15 09:17:44,FAILED_LOGIN,HIGH,78.45.123.67,admin,123456,/login,POST,python-requests/2.28,169,401,Failed login attempt from 78.45.123.67,0,159,RU,True
+2024-01-15 09:17:49,FAILED_LOGIN,HIGH,78.45.123.67,root,123456,/login,POST,python-requests/2.28,175,401,Failed login attempt from 78.45.123.67,0,60,RU,True
+2024-01-15 09:17:52,FAILED_LOGIN,HIGH,78.45.123.67,administrator,cisco,/login,POST,python-requests/2.28,182,401,Failed login attempt from 78.45.123.67,0,146,RU,True
+2024-01-15 09:17:57,FAILED_LOGIN,HIGH,78.45.123.67,administrator,alpine,/login,POST,python-requests/2.28,185,401,Failed login attempt from 78.45.123.67,0,80,RU,True
+2024-01-15 09:18:09,FAILED_LOGIN,HIGH,78.45.123.67,root,123456,/login,POST,python-requests/2.28,194,401,Failed login attempt from 78.45.123.67,0,121,RU,True
+2024-01-15 09:18:13,FAILED_LOGIN,HIGH,78.45.123.67,root,password123,/login,POST,python-requests/2.28,198,401,Failed login attempt from 78.45.123.67,0,116,RU,True
+2024-01-15 09:18:14,FAILED_LOGIN,HIGH,78.45.123.67,administrator,alpine,/login,POST,python-requests/2.28,199,401,Failed login attempt from 78.45.123.67,0,120,RU,True
+2024-01-15 09:21:43,NORMAL_REQUEST,INFO,192.168.100.15,user_251,,/api/v1/history,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,39530,71,IN,False
+2024-01-15 09:29:12,NORMAL_REQUEST,INFO,192.168.100.15,user_161,,/api/v1/history,PUT,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,17665,263,IN,False
+2024-01-15 09:31:24,NORMAL_REQUEST,INFO,192.168.100.15,user_913,,/api/v1/reports,GET,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,39318,81,IN,False
+2024-01-15 09:49:03,NORMAL_REQUEST,INFO,192.168.100.87,user_801,,/api/v1/analyze,GET,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,11223,63,IN,False
+2024-01-15 09:54:21,NORMAL_REQUEST,INFO,10.0.0.5,user_879,,/static/css/main.css,POST,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,38767,101,IN,False
+2024-01-15 10:00:25,SQL_INJECTION,CRITICAL,103.21.244.0,anonymous,,/admin/login?id=' OR 1=1--,GET,Medusa/2.2,89,400,SQL injection attempt detected: ' OR 1=1--,173,679,IR,True
+2024-01-15 10:01:17,NORMAL_REQUEST,INFO,10.10.10.1,user_868,,/api/v1/users,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,9404,47,IN,False
+2024-01-15 10:02:58,SQL_INJECTION,CRITICAL,194.165.16.11,anonymous,,/signin?id=' UNION SELECT * FROM users--,GET,nmap scripting engine,123,400,SQL injection attempt detected: ' UNION SELECT * FROM users--,286,792,RU,True
+2024-01-15 10:03:34,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,/dashboard?id=' OR 1=1--,GET,masscan/1.3,115,400,SQL injection attempt detected: ' OR 1=1--,133,437,CN,True
+2024-01-15 10:03:44,SQL_INJECTION,CRITICAL,185.220.101.45,anonymous,,"/dashboard?id='; INSERT INTO users VALUES('hacker','pass')--",GET,python-requests/2.28,96,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",204,408,RU,True
+2024-01-15 10:05:07,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,/login?id=1' AND SLEEP(5)--,GET,nmap scripting engine,150,400,SQL injection attempt detected: 1' AND SLEEP(5)--,286,625,RU,True
+2024-01-15 10:06:13,SQL_INJECTION,CRITICAL,45.33.32.156,anonymous,,/admin?id=' OR ''=',GET,Hydra/9.3,82,400,SQL injection attempt detected: ' OR ''=',147,542,CN,True
+2024-01-15 10:06:15,SQL_INJECTION,CRITICAL,192.168.1.105,anonymous,,/login?id=' UNION SELECT * FROM users--,GET,curl/7.68 (scanner),90,400,SQL injection attempt detected: ' UNION SELECT * FROM users--,210,485,IR,True
+2024-01-15 10:06:46,SQL_INJECTION,CRITICAL,185.107.56.12,anonymous,,"/user/login?id=' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",GET,Hydra/9.3,79,400,"SQL injection attempt detected: ' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",435,766,NG,True
+2024-01-15 10:08:56,SQL_INJECTION,CRITICAL,185.220.101.45,anonymous,,/api/v1/auth?id=1' AND SLEEP(5)--,GET,Nikto/2.1.6,30,400,SQL injection attempt detected: 1' AND SLEEP(5)--,324,596,CN,True
+2024-01-15 10:09:30,NORMAL_REQUEST,INFO,10.0.0.34,user_375,,/favicon.ico,POST,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,41179,195,IN,False
+2024-01-15 10:10:37,SQL_INJECTION,CRITICAL,194.165.16.11,anonymous,,/login?id='; DROP TABLE users;--,GET,Medusa/2.2,92,400,SQL injection attempt detected: '; DROP TABLE users;--,486,732,CN,True
+2024-01-15 10:10:50,SQL_INJECTION,CRITICAL,185.107.56.12,anonymous,,/dashboard?id=1 OR 1=1,GET,masscan/1.3,114,400,SQL injection attempt detected: 1 OR 1=1,290,389,IR,True
+2024-01-15 10:11:36,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,"/wp-admin?id=' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",GET,Medusa/2.2,47,400,"SQL injection attempt detected: ' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",140,724,IR,True
+2024-01-15 10:15:07,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,/admin/login?id=1' AND SLEEP(5)--,GET,masscan/1.3,103,400,SQL injection attempt detected: 1' AND SLEEP(5)--,498,272,CN,True
+2024-01-15 10:15:20,SQL_INJECTION,CRITICAL,185.107.56.12,anonymous,,"/admin?id='; INSERT INTO users VALUES('hacker','pass')--",GET,Hydra/9.3,32,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",336,220,RU,True
+2024-01-15 10:16:13,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,/api/auth?id='; DROP TABLE users;--,GET,Nikto/2.1.6,134,400,SQL injection attempt detected: '; DROP TABLE users;--,162,148,RU,True
+2024-01-15 10:16:27,SQL_INJECTION,CRITICAL,91.108.4.1,anonymous,,/admin/login?id='; DROP TABLE users;--,GET,Hydra/9.3,140,400,SQL injection attempt detected: '; DROP TABLE users;--,495,695,KP,True
+2024-01-15 10:16:30,SQL_INJECTION,CRITICAL,78.45.123.67,anonymous,,/dashboard?id=1 OR 1=1,GET,Medusa/2.2,136,400,SQL injection attempt detected: 1 OR 1=1,249,539,CN,True
+2024-01-15 10:21:32,SQL_INJECTION,CRITICAL,78.45.123.67,anonymous,,/login?id=admin'--,GET,Nikto/2.1.6,143,400,SQL injection attempt detected: admin'--,363,507,NG,True
+2024-01-15 10:22:03,SQL_INJECTION,CRITICAL,203.0.113.88,anonymous,,"/dashboard?id=' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",GET,masscan/1.3,107,400,"SQL injection attempt detected: ' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",177,550,CN,True
+2024-01-15 10:25:56,SQL_INJECTION,CRITICAL,192.168.1.105,anonymous,,/api/v1/auth?id=' OR 1=1--,GET,masscan/1.3,43,400,SQL injection attempt detected: ' OR 1=1--,420,599,NG,True
+2024-01-15 10:27:36,SQL_INJECTION,CRITICAL,194.165.16.11,anonymous,,"/dashboard?id='; INSERT INTO users VALUES('hacker','pass')--",GET,nmap scripting engine,100,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",248,217,IR,True
+2024-01-15 10:29:06,SQL_INJECTION,CRITICAL,78.45.123.67,anonymous,,/user/login?id=' OR ''=',GET,Hydra/9.3,76,400,SQL injection attempt detected: ' OR ''=',351,554,CN,True
+2024-01-15 10:29:46,SQL_INJECTION,CRITICAL,192.168.1.105,anonymous,,"/login?id='; INSERT INTO users VALUES('hacker','pass')--",GET,python-requests/2.28,99,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",335,179,KP,True
+2024-01-15 10:36:28,NORMAL_REQUEST,INFO,10.0.0.12,user_574,,/static/js/app.js,PUT,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,11982,192,IN,False
+2024-01-15 10:39:44,NORMAL_REQUEST,INFO,192.168.100.5,user_988,,/api/v1/history,GET,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,16149,214,IN,False
+2024-01-15 10:40:35,NORMAL_REQUEST,INFO,192.168.100.5,user_574,,/api/v1/users,PUT,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,31837,47,IN,False
+2024-01-15 10:41:12,SQL_INJECTION,CRITICAL,78.45.123.67,anonymous,,"/admin/login?id='; INSERT INTO users VALUES('hacker','pass')--",GET,Nikto/2.1.6,22,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",113,193,RU,True
+2024-01-15 10:45:08,SQL_INJECTION,CRITICAL,185.220.101.45,anonymous,,/dashboard?id=1' AND SLEEP(5)--,GET,sqlmap/1.7,18,400,SQL injection attempt detected: 1' AND SLEEP(5)--,317,217,NG,True
+2024-01-15 10:45:55,SQL_INJECTION,CRITICAL,192.168.1.105,anonymous,,/admin/login?id=' OR ''=',GET,Nikto/2.1.6,60,400,SQL injection attempt detected: ' OR ''=',399,490,KP,True
+2024-01-15 10:48:14,NORMAL_REQUEST,INFO,10.0.0.34,user_416,,/api/v1/analyze,POST,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,19925,112,IN,False
+2024-01-15 10:51:21,SQL_INJECTION,CRITICAL,203.0.113.88,anonymous,,"/api/auth?id=' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",GET,zgrab/0.x,124,400,"SQL injection attempt detected: ' AND 1=CONVERT(int,(SELECT TOP 1 name FROM sysobjects))--",219,646,RU,True
+2024-01-15 10:51:25,SQL_INJECTION,CRITICAL,203.0.113.88,anonymous,,/login?id=1' AND SLEEP(5)--,GET,sqlmap/1.7,144,400,SQL injection attempt detected: 1' AND SLEEP(5)--,246,465,CN,True
+2024-01-15 10:53:21,SQL_INJECTION,CRITICAL,45.33.32.156,anonymous,,/signin?id='; DROP TABLE users;--,GET,Nikto/2.1.6,42,400,SQL injection attempt detected: '; DROP TABLE users;--,273,738,IR,True
+2024-01-15 10:54:42,SQL_INJECTION,CRITICAL,78.45.123.67,anonymous,,/wp-admin?id=' OR 1=1--,GET,Go-http-client/1.1 (bot),101,400,SQL injection attempt detected: ' OR 1=1--,335,470,CN,True
+2024-01-15 10:59:21,SQL_INJECTION,CRITICAL,198.51.100.23,anonymous,,/admin/login?id=' OR ''=',GET,sqlmap/1.7,38,400,SQL injection attempt detected: ' OR ''=',457,344,NG,True
+2024-01-15 10:59:38,SQL_INJECTION,CRITICAL,192.168.1.105,anonymous,,"/admin/login?id='; INSERT INTO users VALUES('hacker','pass')--",GET,nmap scripting engine,84,400,"SQL injection attempt detected: '; INSERT INTO users VALUES('hacker','pass')--",469,152,KP,True
+2024-01-15 10:59:40,SQL_INJECTION,CRITICAL,103.21.244.0,anonymous,,/signin?id=' OR '1'='1,GET,masscan/1.3,127,400,SQL injection attempt detected: ' OR '1'='1,383,205,NG,True
+2024-01-15 11:01:03,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),1,503,DDoS flood detected - 1584 req/sec,162,2285,CN,True
+2024-01-15 11:02:46,NORMAL_REQUEST,INFO,10.0.0.12,user_366,,/static/css/main.css,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,24613,151,IN,False
+2024-01-15 11:03:03,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),127,503,DDoS flood detected - 3671 req/sec,196,3902,CN,True
+2024-01-15 11:04:18,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),2,503,DDoS flood detected - 1275 req/sec,110,8377,CN,True
+2024-01-15 11:04:48,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),58,503,DDoS flood detected - 1396 req/sec,62,4377,CN,True
+2024-01-15 11:06:57,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),52,503,DDoS flood detected - 2393 req/sec,86,4560,CN,True
+2024-01-15 11:09:16,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),117,503,DDoS flood detected - 1562 req/sec,77,7043,CN,True
+2024-01-15 11:09:36,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),67,503,DDoS flood detected - 3027 req/sec,170,4340,CN,True
+2024-01-15 11:09:49,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),113,503,DDoS flood detected - 4912 req/sec,70,4837,CN,True
+2024-01-15 11:10:18,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),147,503,DDoS flood detected - 3385 req/sec,196,2093,CN,True
+2024-01-15 11:11:51,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),17,503,DDoS flood detected - 3906 req/sec,66,6505,CN,True
+2024-01-15 11:12:43,NORMAL_REQUEST,INFO,172.16.0.10,user_936,,/favicon.ico,POST,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,32906,266,IN,False
+2024-01-15 11:12:51,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),102,503,DDoS flood detected - 2285 req/sec,94,5765,CN,True
+2024-01-15 11:14:01,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),27,503,DDoS flood detected - 4150 req/sec,154,8744,CN,True
+2024-01-15 11:15:13,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),12,503,DDoS flood detected - 1878 req/sec,123,7685,CN,True
+2024-01-15 11:15:21,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),5,503,DDoS flood detected - 4886 req/sec,144,5047,CN,True
+2024-01-15 11:16:11,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),90,503,DDoS flood detected - 2087 req/sec,198,6731,CN,True
+2024-01-15 11:16:45,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),13,503,DDoS flood detected - 1819 req/sec,81,3111,CN,True
+2024-01-15 11:16:51,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),135,503,DDoS flood detected - 4642 req/sec,84,8971,CN,True
+2024-01-15 11:17:04,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),79,503,DDoS flood detected - 1164 req/sec,61,2318,CN,True
+2024-01-15 11:17:09,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),33,503,DDoS flood detected - 4730 req/sec,64,8810,CN,True
+2024-01-15 11:18:12,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),40,503,DDoS flood detected - 1382 req/sec,178,7250,CN,True
+2024-01-15 11:18:47,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),123,503,DDoS flood detected - 4805 req/sec,90,5333,CN,True
+2024-01-15 11:19:10,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),72,503,DDoS flood detected - 1797 req/sec,142,6532,CN,True
+2024-01-15 11:19:21,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),4,503,DDoS flood detected - 1132 req/sec,89,7562,CN,True
+2024-01-15 11:21:40,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),38,503,DDoS flood detected - 4917 req/sec,191,4248,CN,True
+2024-01-15 11:21:46,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),120,503,DDoS flood detected - 1953 req/sec,63,2820,CN,True
+2024-01-15 11:21:55,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),29,503,DDoS flood detected - 1303 req/sec,165,5816,CN,True
+2024-01-15 11:22:01,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),3,503,DDoS flood detected - 2500 req/sec,142,5136,CN,True
+2024-01-15 11:24:50,NORMAL_REQUEST,INFO,10.10.10.45,user_884,,/favicon.ico,GET,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,49796,150,IN,False
+2024-01-15 11:26:58,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),22,503,DDoS flood detected - 3023 req/sec,56,4956,CN,True
+2024-01-15 11:29:32,DDOS,CRITICAL,185.220.101.45,,,/api/v1/health,GET,curl/7.68 (scanner),60,503,DDoS flood detected - 4695 req/sec,90,8664,CN,True
+2024-01-15 11:29:53,NORMAL_REQUEST,INFO,10.10.10.45,user_510,,/api/v1/analyze,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,44003,286,IN,False
+2024-01-15 11:31:57,NORMAL_REQUEST,INFO,192.168.100.5,user_669,,/api/v1/history,GET,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,37179,186,IN,False
+2024-01-15 11:35:48,NORMAL_REQUEST,INFO,192.168.100.15,user_515,,/api/v1/reports,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,14127,285,IN,False
+2024-01-15 11:41:06,NORMAL_REQUEST,INFO,192.168.100.87,user_894,,/dashboard,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,40841,214,IN,False
+2024-01-15 11:51:40,NORMAL_REQUEST,INFO,172.16.0.10,user_955,,/dashboard,PUT,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,14472,295,IN,False
+2024-01-15 11:58:43,NORMAL_REQUEST,INFO,172.16.0.10,user_504,,/static/js/app.js,PUT,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,11700,219,IN,False
+2024-01-15 12:00:50,PHISHING,HIGH,198.51.100.23,deploy,,/api/v1/auth,POST,nmap scripting engine,1,200,Phishing payload detected in request body,597,498,CN,True
+2024-01-15 12:06:07,PHISHING,HIGH,78.45.123.67,git,,/api/v1/auth,POST,curl/7.68 (scanner),1,200,Phishing payload detected in request body,295,405,KP,True
+2024-01-15 12:06:40,PHISHING,HIGH,78.45.123.67,mail,,/api/v1/auth,POST,sqlmap/1.7,1,200,Phishing payload detected in request body,277,274,IR,True
+2024-01-15 12:07:59,PHISHING,HIGH,103.21.244.0,user,,/api/v1/auth,POST,masscan/1.3,1,200,Phishing payload detected in request body,910,172,IR,True
+2024-01-15 12:11:24,PHISHING,HIGH,192.168.1.105,mail,,/api/v1/auth,POST,Nikto/2.1.6,1,200,Phishing payload detected in request body,631,253,IR,True
+2024-01-15 12:14:55,PHISHING,HIGH,78.45.123.67,www,,/api/v1/auth,POST,zgrab/0.x,1,200,Phishing payload detected in request body,582,130,IR,True
+2024-01-15 12:20:41,PHISHING,HIGH,91.108.4.1,admin,,/api/v1/auth,POST,sqlmap/1.7,1,200,Phishing payload detected in request body,394,479,CN,True
+2024-01-15 12:21:37,PHISHING,HIGH,198.51.100.23,git,,/api/v1/auth,POST,Hydra/9.3,1,200,Phishing payload detected in request body,293,102,KP,True
+2024-01-15 12:25:11,NORMAL_REQUEST,INFO,172.16.0.22,user_685,,/static/js/app.js,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,32001,39,IN,False
+2024-01-15 12:25:59,PHISHING,HIGH,103.21.244.0,support,,/api/v1/auth,POST,curl/7.68 (scanner),1,200,Phishing payload detected in request body,864,283,KP,True
+2024-01-15 12:29:23,PHISHING,HIGH,91.108.4.1,api,,/api/v1/auth,POST,Medusa/2.2,1,200,Phishing payload detected in request body,507,264,RU,True
+2024-01-15 12:37:43,PHISHING,HIGH,198.51.100.23,backup,,/api/v1/auth,POST,python-requests/2.28,1,200,Phishing payload detected in request body,852,104,RU,True
+2024-01-15 12:38:45,NORMAL_REQUEST,INFO,10.0.0.34,user_192,,/static/css/main.css,PUT,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,24846,277,IN,False
+2024-01-15 12:40:04,PHISHING,HIGH,185.220.101.45,guest,,/api/v1/auth,POST,nmap scripting engine,1,200,Phishing payload detected in request body,278,253,RU,True
+2024-01-15 12:43:42,NORMAL_REQUEST,INFO,172.16.0.22,user_199,,/api/v1/history,GET,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,48524,138,IN,False
+2024-01-15 12:45:46,NORMAL_REQUEST,INFO,172.16.0.10,user_868,,/dashboard,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,36966,267,IN,False
+2024-01-15 12:46:26,PHISHING,HIGH,185.220.101.45,api,,/api/v1/auth,POST,Hydra/9.3,1,200,Phishing payload detected in request body,738,328,KP,True
+2024-01-15 12:51:30,PHISHING,HIGH,45.33.32.156,webmaster,,/api/v1/auth,POST,zgrab/0.x,1,200,Phishing payload detected in request body,446,215,KP,True
+2024-01-15 13:00:04,MALWARE,CRITICAL,192.168.1.105,,,/upload?file=malware_219.exe,POST,zgrab/0.x,1,403,Malware upload attempt blocked,703797,335,NG,True
+2024-01-15 13:00:39,MALWARE,CRITICAL,91.108.4.1,,,/upload?file=malware_497.exe,POST,Medusa/2.2,1,403,Malware upload attempt blocked,1686856,593,NG,True
+2024-01-15 13:01:06,NORMAL_REQUEST,INFO,10.0.0.34,user_458,,/static/css/main.css,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,11716,152,IN,False
+2024-01-15 13:03:08,MALWARE,CRITICAL,185.220.101.45,,,/upload?file=malware_484.exe,POST,masscan/1.3,1,403,Malware upload attempt blocked,3262664,353,CN,True
+2024-01-15 13:03:17,NORMAL_REQUEST,INFO,10.0.0.12,user_542,,/api/v1/users,GET,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,13849,94,IN,False
+2024-01-15 13:08:14,MALWARE,CRITICAL,198.51.100.23,,,/upload?file=malware_549.exe,POST,masscan/1.3,1,403,Malware upload attempt blocked,1791778,662,RU,True
+2024-01-15 13:09:34,NORMAL_REQUEST,INFO,10.10.10.45,user_473,,/api/v1/health,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,29069,106,IN,False
+2024-01-15 13:12:04,NORMAL_REQUEST,INFO,192.168.100.5,user_863,,/api/v1/history,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,36923,224,IN,False
+2024-01-15 13:17:18,NORMAL_REQUEST,INFO,10.0.0.5,user_203,,/dashboard,POST,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,24697,152,IN,False
+2024-01-15 13:18:54,MALWARE,CRITICAL,185.220.101.45,,,/upload?file=malware_661.exe,POST,Hydra/9.3,1,403,Malware upload attempt blocked,2131775,766,NG,True
+2024-01-15 13:19:33,MALWARE,CRITICAL,185.107.56.12,,,/upload?file=malware_644.exe,POST,curl/7.68 (scanner),1,403,Malware upload attempt blocked,3534896,633,NG,True
+2024-01-15 13:21:46,MALWARE,CRITICAL,78.45.123.67,,,/upload?file=malware_612.exe,POST,sqlmap/1.7,1,403,Malware upload attempt blocked,295815,997,RU,True
+2024-01-15 13:26:02,NORMAL_REQUEST,INFO,10.0.0.5,user_336,,/static/js/app.js,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,36927,211,IN,False
+2024-01-15 13:27:22,MALWARE,CRITICAL,78.45.123.67,,,/upload?file=malware_71.exe,POST,zgrab/0.x,1,403,Malware upload attempt blocked,2418161,992,RU,True
+2024-01-15 13:30:41,NORMAL_REQUEST,INFO,10.10.10.1,user_198,,/static/js/app.js,GET,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,32186,39,IN,False
+2024-01-15 13:31:04,MALWARE,CRITICAL,203.0.113.88,,,/upload?file=malware_524.exe,POST,masscan/1.3,1,403,Malware upload attempt blocked,515056,711,NG,True
+2024-01-15 13:38:29,MALWARE,CRITICAL,103.21.244.0,,,/upload?file=malware_804.exe,POST,Nikto/2.1.6,1,403,Malware upload attempt blocked,2084942,675,RU,True
+2024-01-15 13:39:43,MALWARE,CRITICAL,91.108.4.1,,,/upload?file=malware_3.exe,POST,Hydra/9.3,1,403,Malware upload attempt blocked,3895751,850,NG,True
+2024-01-15 13:40:42,MALWARE,CRITICAL,198.51.100.23,,,/upload?file=malware_142.exe,POST,Go-http-client/1.1 (bot),1,403,Malware upload attempt blocked,3268792,633,CN,True
+2024-01-15 13:44:05,MALWARE,CRITICAL,185.220.101.45,,,/upload?file=malware_455.exe,POST,Medusa/2.2,1,403,Malware upload attempt blocked,821572,539,CN,True
+2024-01-15 13:44:37,NORMAL_REQUEST,INFO,10.0.0.12,user_281,,/static/css/main.css,POST,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,42582,49,IN,False
+2024-01-15 13:47:02,MALWARE,CRITICAL,194.165.16.11,,,/upload?file=malware_360.exe,POST,Go-http-client/1.1 (bot),1,403,Malware upload attempt blocked,3641725,369,NG,True
+2024-01-15 13:49:10,MALWARE,CRITICAL,198.51.100.23,,,/upload?file=malware_328.exe,POST,Nikto/2.1.6,1,403,Malware upload attempt blocked,703364,785,RU,True
+2024-01-15 13:52:01,NORMAL_REQUEST,INFO,10.0.0.5,user_257,,/api/v1/analyze,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,8038,84,IN,False
+2024-01-15 13:53:34,MALWARE,CRITICAL,45.33.32.156,,,/upload?file=malware_212.exe,POST,sqlmap/1.7,1,403,Malware upload attempt blocked,547929,783,RU,True
+2024-01-15 13:56:24,MALWARE,CRITICAL,103.21.244.0,,,/upload?file=malware_722.exe,POST,Go-http-client/1.1 (bot),1,403,Malware upload attempt blocked,388310,420,RU,True
+2024-01-15 13:58:02,MALWARE,CRITICAL,91.108.4.1,,,/upload?file=malware_65.exe,POST,curl/7.68 (scanner),1,403,Malware upload attempt blocked,3386282,423,RU,True
+2024-01-15 14:07:53,NORMAL_REQUEST,INFO,172.16.0.10,user_849,,/api/v1/health,GET,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,30203,278,IN,False
+2024-01-15 14:13:38,NORMAL_REQUEST,INFO,10.0.0.5,user_269,,/dashboard,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,10199,248,IN,False
+2024-01-15 14:19:11,NORMAL_REQUEST,INFO,10.0.0.34,user_752,,/favicon.ico,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,47553,79,IN,False
+2024-01-15 14:28:46,NORMAL_REQUEST,INFO,172.16.0.22,user_854,,/favicon.ico,POST,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,42456,131,IN,False
+2024-01-15 14:30:08,NORMAL_REQUEST,INFO,172.16.0.10,user_397,,/dashboard,PUT,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36,1,200,Normal request processed successfully,45064,87,IN,False
+2024-01-15 14:33:26,NORMAL_REQUEST,INFO,192.168.100.5,user_101,,/api/v1/users,GET,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,26292,244,IN,False
+2024-01-15 14:40:36,NORMAL_REQUEST,INFO,10.10.10.1,user_741,,/dashboard,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,48672,58,IN,False
+2024-01-15 14:58:03,NORMAL_REQUEST,INFO,172.16.0.10,user_346,,/api/v1/health,PUT,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,40323,226,IN,False
+2024-01-15 15:05:53,NORMAL_REQUEST,INFO,192.168.100.5,user_588,,/api/v1/history,PUT,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,33920,260,IN,False
+2024-01-15 15:08:21,NORMAL_REQUEST,INFO,10.0.0.34,user_402,,/api/v1/analyze,PUT,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,36466,36,IN,False
+2024-01-15 15:09:07,NORMAL_REQUEST,INFO,10.0.0.12,user_392,,/api/v1/settings,GET,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,23535,230,IN,False
+2024-01-15 15:17:09,NORMAL_REQUEST,INFO,10.10.10.1,user_685,,/api/v1/settings,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,10663,81,IN,False
+2024-01-15 15:17:27,NORMAL_REQUEST,INFO,192.168.100.87,user_754,,/api/v1/history,POST,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,1,200,Normal request processed successfully,24653,232,IN,False
+2024-01-15 15:18:08,NORMAL_REQUEST,INFO,192.168.100.15,user_682,,/api/v1/settings,POST,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,12879,214,IN,False
+2024-01-15 15:20:58,NORMAL_REQUEST,INFO,192.168.100.87,user_105,,/static/css/main.css,PUT,Mozilla/5.0 (iPad; CPU OS 15_0 like Mac OS X),1,200,Normal request processed successfully,33339,141,IN,False
+2024-01-15 15:26:57,NORMAL_REQUEST,INFO,10.10.10.1,user_635,,/api/v1/analyze,POST,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,36095,263,IN,False
+2024-01-15 15:42:18,NORMAL_REQUEST,INFO,10.0.0.5,user_916,,/dashboard,PUT,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),1,200,Normal request processed successfully,24252,108,IN,False
+2024-01-15 15:51:04,NORMAL_REQUEST,INFO,192.168.100.5,user_800,,/api/v1/settings,GET,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,32659,269,IN,False
+2024-01-15 15:53:39,NORMAL_REQUEST,INFO,192.168.100.87,user_593,,/api/v1/settings,POST,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15,1,200,Normal request processed successfully,15376,230,IN,False
